@@ -1,9 +1,7 @@
-# Ex. No: 15C - Expression Tree with Inorder and Postorder Traversal
+# Ex. No: 15E - Expression Tree with Inorder and Postorder Traversal
 
 ## AIM:
 To write a Python program to build the given expression tree and print the inorder and postorder traversals.
-
----
 
 ## ALGORITHM:
 
@@ -14,16 +12,18 @@ To write a Python program to build the given expression tree and print the inord
 5. Print the **inorder** and **postorder** traversal of the tree.
 6. **End the program.**
 
----
-
 ## PROGRAM:
 
 ```
-WRITE YOUR CODE
+from binarytree import build,Node
+x=['/','*','+','+',4,'-',2,3,1,None,None,9,5,None,None]
+root=build(x)
+print(root.inorder)
+print(root.postorder)
 ```
 
 ## OUTPUT
-```
-```
+![image](https://github.com/user-attachments/assets/3e8782be-24c2-4542-9ad7-eefa3fce1b24)
 
 ## RESULT
+Thus a Python program to build the given expression tree and print the inorder and postorder traversals is implemented successfully.
