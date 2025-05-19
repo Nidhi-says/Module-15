@@ -1,9 +1,7 @@
-# Ex. No: 15D - Build a Heap Tree Using Python
+# Ex. No: 15C - Build a Heap Tree Using Python
 
 ## AIM:
 To write a Python program to build a heap tree using appropriate Python package and function.
-
----
 
 ## ALGORITHM:
 
@@ -14,16 +12,17 @@ To write a Python program to build a heap tree using appropriate Python package 
 5. Print the created heap.
 6. **End the program.**
 
----
-
 ## PROGRAM:
 
 ```
-WRITE YOUR CODE
+import heapq
+def heaptree(H):
+    heapq.heapify(H)
+    print("The created Heap is",H)
 ```
 
 ## OUTPUT
-```
-```
+![image](https://github.com/user-attachments/assets/6233eb16-5c77-4072-87d6-ed9701d36182)
 
 ## RESULT
+Thus a Python program to build a heap tree using appropriate Python package and function is implemented successfully.
